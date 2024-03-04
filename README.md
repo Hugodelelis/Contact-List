@@ -1,1 +1,1 @@
-Projeto simples para estudo, simulando uma lista de contatos dem Html e Css.
+Projeto simples para estudo, simulando uma lista de contatos em Html e Css.
