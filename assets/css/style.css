@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: ghostwhite;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.main-content {
+  max-width: 120rem;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact-box {
+  max-width: 50rem;
+  max-height: 30rem;
+  background-color: white;
+  border: 0.1rem solid grey;
+  border-radius: 1rem;
+  overflow-y: auto;
+}
+
+.list-contact {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 0.1rem solid rgb(131, 131, 131);
+  transition: all 300ms ease-in-out;
+}
+
+.photo-content {
+  max-height: 10rem;
+  max-width: 10rem;
+  padding: 1rem;
+}
+
+.photo-content img {
+  max-width: 100%;
+  height: auto;
+  border: 0.2rem solid black;
+  border-radius: 4rem;
+}
+
+.info-content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.name {
+  color: gray;
+  font-size: 2rem;
+}
+
+.email {
+  font-size: 1.2rem;
+  color: rgba(128, 128, 128, 0.537);
+}
+
+.option {
+  display: none;
+}
+
+.option img {
+  opacity: 0.4;
+  margin: 1rem;
+  transition: all 300ms ease;
+}
+
+.contact:hover {
+  background-color: rgba(0, 0, 0, 0.173);
+}
+
+.contact:hover .option {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact:hover .option img {
+  cursor: pointer;
+}
