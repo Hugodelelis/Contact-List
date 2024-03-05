@@ -1,1 +1,5 @@
-Projeto simples para estudo, simulando uma lista de contatos em Html e Css.
+Contact List Project 
+<hr>
+technologys: Html and Css
+<hr>
+description: responsive project for practice, simulating a contact list.
